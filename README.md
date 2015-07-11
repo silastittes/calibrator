@@ -34,7 +34,6 @@ I encourage you to modify the "lenLow=100 and lenHigh=4000" values if you have s
 Calling the script. Be sure all files in this repositoriy are included in your current local directory (or fully install them if you dare). To run the script, simply type the following in the bash terminal command prompt:
 
 bash "OTU\_calibrator.sh" your-fasta-file your-speciesNames-file
-NOTE: not sure if the "\" symbol appears before the underscore, but don't include that in your command if so. Silly markdown formatting.
 
 Example: 
 ---
