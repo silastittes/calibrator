@@ -32,12 +32,14 @@ lenHigh=4000
 I encourage you to modify the "lenLow=100 and lenHigh=4000" values if you have sequences outside that length range you would like to consider for calibration. Quality of estimation and time spent waiting may vary. The "simLow" and "simHigh" parameters are the lowest and highest percent similarity cutoff that are used in the pick\_otus.py script.
 
 Calling the script. Be sure all files in this repositoriy are included in your current local directory (or fully install them if you dare). To run the script, simply type the following in the bash terminal command prompt:
+
 bash "OTU\_calibrator.sh" your-fasta-file your-speciesNames-file
 NOTE: not sure if the "\" symbol appears before the underscore, but don't include that in your command if so. Silly markdown formatting.
 
 Example: 
 ---
 This repository includes some example scripts. Feel free to try out the following to see if everything is working properly:
+
 bash OTU\_calibrator.sh siphonaptera.fasta speciesNames
 
 
