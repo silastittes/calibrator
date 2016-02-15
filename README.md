@@ -39,8 +39,9 @@ Example:
 ---
 This repository includes some example scripts. Feel free to try out the following to see if everything is working properly:
 
-bash OTU\_calibrator.sh siphonaptera.fasta speciesNames
-
+```
+bash OTU_calibrator.sh siphonaptera.fasta speciesNames
+```
 
 OUTPUTS:
 ---
